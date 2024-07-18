@@ -11,3 +11,10 @@ rastgele_numaralar = random.sample([i for i in range(1, 80) if i not in sabit_nu
 
 # İki listeyi birleştir
 final_numbers = sabit_numaralar + rastgele_numaralar
+
+# Küçükten büyüğe listelemek için sorted edebiliriz.
+sorted_numbers = sorted(final_numbers)
+
+
+# Sonuçları yazdır
+print("Rastgele Üretilen Sayılar:", sorted_numbers)
