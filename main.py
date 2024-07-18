@@ -9,3 +9,5 @@ for i in range(3):
 # Sabit numaralar haricinde; 1 ile 80 sayıları arasında, 7 rastgele sayı seçimi
 rastgele_numaralar = random.sample([i for i in range(1, 80) if i not in sabit_numaralar], 7)
 
+# İki listeyi birleştir
+final_numbers = sabit_numaralar + rastgele_numaralar
