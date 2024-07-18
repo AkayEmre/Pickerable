@@ -15,6 +15,5 @@ final_numbers = sabit_numaralar + rastgele_numaralar
 # Küçükten büyüğe listelemek için sorted edebiliriz.
 sorted_numbers = sorted(final_numbers)
 
-
 # Sonuçları yazdır
 print("Rastgele Üretilen Sayılar:", sorted_numbers)
